@@ -65,7 +65,7 @@ namespace SampleAssignments.Logical
                 words[i] = words[j];
                 words[j] = temp;
             }
-            Console.WriteLine(String.Join(" ", words));
+            Console.WriteLine(String.Join("  ", words));
 
         }
     }
